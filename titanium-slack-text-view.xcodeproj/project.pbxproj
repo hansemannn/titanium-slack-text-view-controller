@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiSlacktextviewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiSlacktextviewModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiSlacktextviewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiSlacktextviewModule.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		24DE9E1111C5FE74003F90F6 /* TiSlacktextviewModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiSlacktextviewModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiSlacktextviewModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiSlacktextviewModuleAssets.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AA747D9F0F9514B9006C5449 /* TiSlacktextview_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiSlacktextview_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DB8ABB452073ED870047C337 /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB2F2073ED870047C337 /* UIResponder+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB462073ED870047C337 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB302073ED870047C337 /* SLKInputAccessoryView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB472073ED870047C337 /* SLKUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB312073ED870047C337 /* SLKUIConstants.h */; };
+		DB8ABB482073ED870047C337 /* SLKTypingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB322073ED870047C337 /* SLKTypingIndicatorView.h */; };
+		DB8ABB492073ED870047C337 /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB332073ED870047C337 /* UIView+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB4A2073ED870047C337 /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB342073ED870047C337 /* SLKTextView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB4B2073ED870047C337 /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB352073ED870047C337 /* SLKTextViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB4C2073ED870047C337 /* UIScrollView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB362073ED870047C337 /* UIScrollView+SLKAdditions.h */; };
+		DB8ABB4D2073ED870047C337 /* SLKTextInput+Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB372073ED870047C337 /* SLKTextInput+Implementation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB4E2073ED870047C337 /* SLKTextInputbar.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB382073ED870047C337 /* SLKTextInputbar.h */; };
+		DB8ABB4F2073ED870047C337 /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB392073ED870047C337 /* SLKTextView+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB502073ED870047C337 /* UIResponder+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB3A2073ED870047C337 /* UIResponder+SLKAdditions.h */; };
+		DB8ABB512073ED870047C337 /* SLKTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB3B2073ED870047C337 /* SLKTextInput.h */; };
+		DB8ABB522073ED870047C337 /* SLKInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB3C2073ED870047C337 /* SLKInputAccessoryView.h */; };
+		DB8ABB532073ED870047C337 /* SLKTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB3D2073ED870047C337 /* SLKTextViewController.h */; };
+		DB8ABB542073ED870047C337 /* SLKTypingIndicatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB3E2073ED870047C337 /* SLKTypingIndicatorProtocol.h */; };
+		DB8ABB552073ED870047C337 /* SLKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB3F2073ED870047C337 /* SLKTextView.h */; };
+		DB8ABB562073ED870047C337 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB402073ED870047C337 /* SLKTypingIndicatorView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB572073ED870047C337 /* UIView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB412073ED870047C337 /* UIView+SLKAdditions.h */; };
+		DB8ABB582073ED870047C337 /* SLKTextView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB422073ED870047C337 /* SLKTextView+SLKAdditions.h */; };
+		DB8ABB592073ED870047C337 /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB432073ED870047C337 /* SLKTextInputbar.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB5A2073ED870047C337 /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB442073ED870047C337 /* UIScrollView+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DB8ABB5C2073EE2C0047C337 /* SlackTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB5B2073EE2C0047C337 /* SlackTextViewController.h */; };
+		DB8ABB5F2073F00C0047C337 /* TiTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8ABB5D2073F00C0047C337 /* TiTextViewController.h */; };
+		DB8ABB602073F00C0047C337 /* TiTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ABB5E2073F00C0047C337 /* TiTextViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "titanium-slack-text-view";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiSlacktextviewModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSlacktextviewModule.h; path = Classes/TiSlacktextviewModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiSlacktextviewModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSlacktextviewModule.m; path = Classes/TiSlacktextviewModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiSlacktextviewModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSlacktextviewModuleAssets.h; path = Classes/TiSlacktextviewModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiSlacktextviewModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSlacktextviewModuleAssets.m; path = Classes/TiSlacktextviewModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiSlacktextview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiSlacktextview_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libti.slacktextview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libti.slacktextview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8ABB2F2073ED870047C337 /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		DB8ABB302073ED870047C337 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		DB8ABB312073ED870047C337 /* SLKUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKUIConstants.h; sourceTree = "<group>"; };
+		DB8ABB322073ED870047C337 /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		DB8ABB332073ED870047C337 /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+		DB8ABB342073ED870047C337 /* SLKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextView.m; sourceTree = "<group>"; };
+		DB8ABB352073ED870047C337 /* SLKTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextViewController.m; sourceTree = "<group>"; };
+		DB8ABB362073ED870047C337 /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		DB8ABB372073ED870047C337 /* SLKTextInput+Implementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLKTextInput+Implementation.m"; sourceTree = "<group>"; };
+		DB8ABB382073ED870047C337 /* SLKTextInputbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInputbar.h; sourceTree = "<group>"; };
+		DB8ABB392073ED870047C337 /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
+		DB8ABB3A2073ED870047C337 /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		DB8ABB3B2073ED870047C337 /* SLKTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInput.h; sourceTree = "<group>"; };
+		DB8ABB3C2073ED870047C337 /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		DB8ABB3D2073ED870047C337 /* SLKTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextViewController.h; sourceTree = "<group>"; };
+		DB8ABB3E2073ED870047C337 /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		DB8ABB3F2073ED870047C337 /* SLKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextView.h; sourceTree = "<group>"; };
+		DB8ABB402073ED870047C337 /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		DB8ABB412073ED870047C337 /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		DB8ABB422073ED870047C337 /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		DB8ABB432073ED870047C337 /* SLKTextInputbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextInputbar.m; sourceTree = "<group>"; };
+		DB8ABB442073ED870047C337 /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		DB8ABB5B2073EE2C0047C337 /* SlackTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlackTextViewController.h; sourceTree = "<group>"; };
+		DB8ABB5D2073F00C0047C337 /* TiTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TiTextViewController.h; path = Classes/TiTextViewController.h; sourceTree = "<group>"; };
+		DB8ABB5E2073F00C0047C337 /* TiTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TiTextViewController.m; path = Classes/TiTextViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libti.slacktextview.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* titanium-slack-text-view */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "titanium-slack-text-view";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB8ABB2E2073ED870047C337 /* SlackTextViewController */,
+				24DE9E0F11C5FE74003F90F6 /* TiSlacktextviewModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiSlacktextviewModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiSlacktextviewModule.h */,
+				24DD6CF81134B3F500162E58 /* TiSlacktextviewModule.m */,
+				DB8ABB5D2073F00C0047C337 /* TiTextViewController.h */,
+				DB8ABB5E2073F00C0047C337 /* TiTextViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiSlacktextview_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		DB8ABB2E2073ED870047C337 /* SlackTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB8ABB5B2073EE2C0047C337 /* SlackTextViewController.h */,
+				DB8ABB2F2073ED870047C337 /* UIResponder+SLKAdditions.m */,
+				DB8ABB302073ED870047C337 /* SLKInputAccessoryView.m */,
+				DB8ABB312073ED870047C337 /* SLKUIConstants.h */,
+				DB8ABB322073ED870047C337 /* SLKTypingIndicatorView.h */,
+				DB8ABB332073ED870047C337 /* UIView+SLKAdditions.m */,
+				DB8ABB342073ED870047C337 /* SLKTextView.m */,
+				DB8ABB352073ED870047C337 /* SLKTextViewController.m */,
+				DB8ABB362073ED870047C337 /* UIScrollView+SLKAdditions.h */,
+				DB8ABB372073ED870047C337 /* SLKTextInput+Implementation.m */,
+				DB8ABB382073ED870047C337 /* SLKTextInputbar.h */,
+				DB8ABB392073ED870047C337 /* SLKTextView+SLKAdditions.m */,
+				DB8ABB3A2073ED870047C337 /* UIResponder+SLKAdditions.h */,
+				DB8ABB3B2073ED870047C337 /* SLKTextInput.h */,
+				DB8ABB3C2073ED870047C337 /* SLKInputAccessoryView.h */,
+				DB8ABB3D2073ED870047C337 /* SLKTextViewController.h */,
+				DB8ABB3E2073ED870047C337 /* SLKTypingIndicatorProtocol.h */,
+				DB8ABB3F2073ED870047C337 /* SLKTextView.h */,
+				DB8ABB402073ED870047C337 /* SLKTypingIndicatorView.m */,
+				DB8ABB412073ED870047C337 /* UIView+SLKAdditions.h */,
+				DB8ABB422073ED870047C337 /* SLKTextView+SLKAdditions.h */,
+				DB8ABB432073ED870047C337 /* SLKTextInputbar.m */,
+				DB8ABB442073ED870047C337 /* UIScrollView+SLKAdditions.m */,
+			);
+			name = SlackTextViewController;
+			path = Classes/SlackTextViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8ABB5F2073F00C0047C337 /* TiTextViewController.h in Headers */,
+				DB8ABB552073ED870047C337 /* SLKTextView.h in Headers */,
+				DB8ABB5C2073EE2C0047C337 /* SlackTextViewController.h in Headers */,
+				DB8ABB582073ED870047C337 /* SLKTextView+SLKAdditions.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* TiSlacktextview_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TiSlacktextviewModule.h in Headers */,
+				DB8ABB512073ED870047C337 /* SLKTextInput.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiSlacktextviewModuleAssets.h in Headers */,
+				DB8ABB4C2073ED870047C337 /* UIScrollView+SLKAdditions.h in Headers */,
+				DB8ABB572073ED870047C337 /* UIView+SLKAdditions.h in Headers */,
+				DB8ABB532073ED870047C337 /* SLKTextViewController.h in Headers */,
+				DB8ABB542073ED870047C337 /* SLKTypingIndicatorProtocol.h in Headers */,
+				DB8ABB502073ED870047C337 /* UIResponder+SLKAdditions.h in Headers */,
+				DB8ABB522073ED870047C337 /* SLKInputAccessoryView.h in Headers */,
+				DB8ABB472073ED870047C337 /* SLKUIConstants.h in Headers */,
+				DB8ABB482073ED870047C337 /* SLKTypingIndicatorView.h in Headers */,
+				DB8ABB4E2073ED870047C337 /* SLKTextInputbar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* titanium-slack-text-view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "titanium-slack-text-view" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "titanium-slack-text-view";
+			productName = "titanium-slack-text-view";
+			productReference = D2AAC07E0554694100DB518D /* libti.slacktextview.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "titanium-slack-text-view" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* titanium-slack-text-view */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* titanium-slack-text-view */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\nappc run --project-dir \"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8ABB4D2073ED870047C337 /* SLKTextInput+Implementation.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* TiSlacktextviewModule.m in Sources */,
+				DB8ABB452073ED870047C337 /* UIResponder+SLKAdditions.m in Sources */,
+				DB8ABB4B2073ED870047C337 /* SLKTextViewController.m in Sources */,
+				DB8ABB592073ED870047C337 /* SLKTextInputbar.m in Sources */,
+				DB8ABB562073ED870047C337 /* SLKTypingIndicatorView.m in Sources */,
+				DB8ABB5A2073ED870047C337 /* UIScrollView+SLKAdditions.m in Sources */,
+				DB8ABB602073F00C0047C337 /* TiTextViewController.m in Sources */,
+				DB8ABB4A2073ED870047C337 /* SLKTextView.m in Sources */,
+				DB8ABB492073ED870047C337 /* UIView+SLKAdditions.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiSlacktextviewModuleAssets.m in Sources */,
+				DB8ABB462073ED870047C337 /* SLKInputAccessoryView.m in Sources */,
+				DB8ABB4F2073ED870047C337 /* SLKTextView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* titanium-slack-text-view */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiSlacktextview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiSlacktextview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ti.slacktextview;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /tmp/TiSlacktextview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiSlacktextview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TI_VERSION=$(TI_VERSION)",
+					NDEBUG,
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ti.slacktextview;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiSlacktextview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiSlacktextview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ti.slacktextview;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/TiSlacktextview.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiSlacktextview_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ti.slacktextview;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "titanium-slack-text-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "titanium-slack-text-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

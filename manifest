@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: titanium-slack-text-view
+author: Hans Knöchel
+license: MIT
+copyright: Copyright (c) 2018 by Hans Knöchel
+
+# these should not be edited
+name: titanium-slack-text-view
+moduleid: ti.slacktextview
+guid: 7d73ba40-5714-4f09-bb09-fb6e4ec2f661
+platform: iphone
+minsdk: 6.3.0
